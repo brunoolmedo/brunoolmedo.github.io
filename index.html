@@ -22,13 +22,25 @@
 			height: 100%;
 		}
 
+		.bluebox {
+			width: 50px;
+			height: 50px;
+			position: fixed;
+			left: 30%;
+			background-color: blue;
+		}
+
 		.text {
 			position: absolute;
 			color: #fff;
-			top: 500;
+			top: 40%;
 			left: 0;
 			font-family: Karla;
 			font-size: 18pt;
+		}
+
+		.text:hover {
+			font-size: 30pt;
 		}
 
 		.btn {
@@ -36,17 +48,22 @@
 			height: 30px;
 			background-color: white;
 			border: 0;
-			outline-style: ridge;
-		}
-	
 
-		
+		}
+
+	    .btn:hover {
+			background-color: gray;
+		}
 
 		.img {
 			position: absolute;
+			top: 50%;
 		}
 
-
+		.button-container {
+			position: fixed;
+			left: 50%; 
+		}
 	</style>
 </head>
 <body>
@@ -56,19 +73,27 @@
 		<div class="text">
 			<u>Bruno Olmedo.</u>
 		</div>
-
+		<div class="button-container">
 			<button class="btn" type="submit">Button</button>
 			<input class="btn" type="button" value="Input">
 			<input class="btn" type="submit" value="Submit">
+			<button type="button" class="btn btn-danger">Danger</button>
+		</div>
+		<div class="img">
+			<img src="lolphone.jpg" alt="HTML5 Icon" width="128" height="264">
+		</div>
+		<div class="bluebox">
+			<div class="text">
+				Hello
+			</div>
+		</div>
 
 	</div>
 <!-- 
  	<div id="container">
 		<div id="textbackground">
 		</div> 
-		<h1 id="img">
-			<img src="lolphone.jpg" alt="HTML5 Icon" width="264" height="524">
-		</h1>
+		
 
 		<h1  id="text">
 			BRUNO OLMEDO
