@@ -59,8 +59,13 @@
 
 		/* TEXT */ 
 
-		.text {
+		.text-white {
 			color: #fff;
+			font-family: 'Roboto', sans-serif;
+		}
+
+		.text-teal {
+			color: #1abc9c;
 			font-family: 'Roboto', sans-serif;
 		}
 
@@ -119,6 +124,13 @@
 			clear: both;
 			padding: 0px;
 			margin: 0px;
+		}
+
+		.row-white {
+			clear: both;
+			padding: 0px;
+			margin: 0px;
+			background-color: white;
 		}
 
 		/*  COLUMN SETUP  */
@@ -181,32 +193,35 @@
 <body>
 
 		<div class="grid">
-			<div class="row group text">
+			<div class="row group text-white">
 				<div class="col span_2_of_2">
 					<div class="hello">
 						Hello.
 					</div>
 					<div class="name">
 						My name is Bruno.
+						<br></br>
+						<br></br>
 					</div>
 				</div>
 			</div>
-			<div class="row group text">
+			<div class="row-white group text-teal">
 				<div class="col span_2_of_2">
 					<div class="about">
-						<br></br>
 						<br></br>
 						I like to make things
 					</div>
 					<div class="about">
 						and I like music.
+						<br></br>
+						<br></br>
+						<br></br>
 					</div>
 				</div>
 			</div>
-			<div class="row group text">
+			<div class="row group text-white">
 				<div class="col span_2_of_2">
 					<div class="about">
-						<br></br>
 						<br></br>
 					</div>
 					<div class="passion">
