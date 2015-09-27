@@ -97,4 +97,11 @@ a.button {
 	border: 5px solid #bdc3c7;
 }
 
+.left-button {
+	margin-left: 1em;
+}
+
+.right-button {
+	margin-right: 1em;
+}
 
