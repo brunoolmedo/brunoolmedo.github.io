@@ -23,6 +23,12 @@ body {
 	background-color: #1abc9c;
 }
 
+.teal-bar {
+	display: block;
+	background-color: #1abc9c;
+	margin-bottom: 2em;
+}
+
 .white-section {
 	display: block;
 	background-color: white;
