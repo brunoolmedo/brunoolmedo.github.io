@@ -23,6 +23,11 @@ body {
 	background-color: #1abc9c;
 }
 
+.white-section {
+	display: block;
+	background-color: white;
+}
+
 .hello {
 	color: white;
 	font-size: 11em;
