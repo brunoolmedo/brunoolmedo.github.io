@@ -65,7 +65,6 @@ body {
 .half-block {
 	width: 49%;
 	display: inline-block;
-	margin-top: 3em;
 }
 
 .test {
@@ -80,6 +79,7 @@ body {
 	height: 45px;
 	border: 5px solid white;
 	margin-left: 5em;
+	margin-top: 2em;
 
 	/*text styling*/
 	text-align: center;
