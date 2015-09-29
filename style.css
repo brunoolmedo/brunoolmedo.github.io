@@ -41,6 +41,11 @@ body {
 	font-size: 60px;
 }
 
+.resumetxt{
+	font-family: helvetica;
+	color: black;
+}
+
 .white-section {
 	display: block;
 	background-color: white;
