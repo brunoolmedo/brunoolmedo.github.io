@@ -7,10 +7,14 @@ body {
 
 #circle { /*http://techkamar.blogspot.com/2013/12/how-to-make-circle-images-using-css.html*/
 	border-radius: 50% 50% 50% 50%;
-	width: 15em;
-	height: 15em;
+	width: 13em;
+	height: 13em;
 	border: .25em solid white;
 	margin-left: 5em;
+}
+
+.bold {
+	font-weight: bold;
 }
 
 .background {
