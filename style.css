@@ -29,6 +29,16 @@ body {
 	margin-bottom: 2em;
 }
 
+.resumetxt-white {
+	font-family: helvetica;
+	color: white;
+}
+
+.resumetxt-teal {
+	font-family: helvetica;
+	color: #1abc9c;
+}
+
 .white-section {
 	display: block;
 	background-color: white;
