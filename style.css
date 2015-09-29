@@ -41,7 +41,12 @@ body {
 	font-size: 60px;
 }
 
-.resumetxt{
+.h1 {
+	font-family: helvetica;
+	color: black;
+}
+
+.p {
 	font-family: helvetica;
 	color: black;
 }
