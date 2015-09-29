@@ -32,11 +32,13 @@ body {
 .biotxt-white {
 	font-family: helvetica;
 	color: white;
+	font-size: 5em;
 }
 
 .biotxt-teal {
 	font-family: helvetica;
 	color: #1abc9c;
+	font-size: 5em;
 }
 
 .white-section {
