@@ -30,6 +30,10 @@ body {
 	margin-bottom: 2em;
 }
 
+.resume {
+	margin-left: 10%;
+}
+
 .biotxt-white {
 	font-family: helvetica;
 	color: white;
