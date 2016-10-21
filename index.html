@@ -2,34 +2,59 @@
 <html>
 
 <head>
-	<title>
-		Bruno Olmedo
-	</title>
+	<title>Bruno Olmedo</title>
 
 	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link href="style/bootstrap.css" rel="stylesheet" type="text/css" />
+	<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<meta charset="UTF-8">
 
 </head>
 
+<body data-spy="scroll" data-target="#navbar">
 <body>
-	<div class="background">
-		<div class="teal-section">
-			<div class="two-thirds-block">
-				<div class="hello">
-					Hello.
-				</div>
-				<div class="name">
-					My name is Bruno.
+
+	<nav class="navbar navbar-fixed-top navbar-inverse">
+		<div id="navbar" class="container">
+			<ul class="nav navbar-nav">
+				<li role="presentation"><a href="#Home">Home</a></li>
+				<li role="presentation"><a href="#About">About Me</a></li>
+				<li role="presentation"><a href="#Projects">Projects</a></li>
+				<li role="presentation"><a href="#Experience">Experience</a></li>
+				<li role="presentation"><a href="#Awards">Awards</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container-fluid">
+		<div class="row white-bg" id="Home">
+			<div class="container first-section">
+				<img src = "img/brunologo.png" width = 10%;/>
+				<h1 class="txt-blue name"><span class="underline">Bruno</span><span class="thin-title">Olmedo</span><h1>
+			</div>
+		<div class="row blue-bg" id="About">
+			<div class="container aboutme-btm">
+				<h1 class="title txt-white"><span class="underline"> About Me </span></h1>
+				<div style="width: 50%">
+					<h3 class="container col-sm-7 left-text txt-white"> Hi! My name is Bruno. I was born and raised in Cochabamba, Bolivia, and moved to Miami when I was 14. Now I go to Tufts University in Boston and am graduating in May 2017. <br><br>
+					Some of my favorite things in the world are trees, mountains, dogs, dance, design thinking, tech, design, fries, pizza, binge watching TV shows, and cute boys who are mostly straight but still want to make out with me. </h3>
 				</div>
 			</div>
-			<div class="one-third-block">
-				<div>
-					<img src="me_skydiving_square.png" id="circle" alt="bruno"/>
-				</div>
+		</div>
+		<div class="row white-bg" id="Projects">
+			<div class="container">
+				<h1 class="title txt-blue"><span class="underline">Projects</span></h1>
 			</div>
-			<div class="long-block">
-					<a href="http://brunoolmedo.github.io/bio" class="button">About Me</a>
-					<a href="http://brunoolmedo.github.io/resume" class="button">Resume</a>
+		</div>
+		<div class="row blue-bg" id="Experience">
+			<div class="container">
+				<h1 class="title txt-white"><span class="underline"> Experience </span></h1>
+			</div>
+		</div>
+		<div class="row white-bg" id="Awards">
+			<div class="container">
+				<h1 class="title txt-blue"><span class="underline"> Awards </span></h1>
 			</div>
 		</div>
 	</div>
