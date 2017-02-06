@@ -273,19 +273,19 @@ a.button {
 
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	#logoTriangles, #logo, nav {
 		display: none;
 	}
 }
 
-@media (max-width: 1103px) {
+@media screen and (max-width: 1103px) {
 	h1 {
 		font-size: 7em;
 	}
 }
 
-@media (max-width: 976px) {
+@media screen and (max-width: 976px) {
 	h1 {
 		font-size: 5em;
 	}
@@ -294,13 +294,13 @@ a.button {
 	}
 }
 
-@media (max-width: 976px) {
+@media screen and (max-width: 976px) {
 	.txt-red {
 		color: #FFCA3A;
 	}
 }
 
-@media (max-width: 488px) {
+@media screen and (max-width: 488px) {
 	.name1,
 	.name2 {
 		text-align: center;
