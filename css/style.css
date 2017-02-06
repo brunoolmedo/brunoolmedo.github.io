@@ -312,6 +312,9 @@ a.button {
 	h2 {
 		font-size: 2em;
 	}
+	.first-bg {
+		height: 20em;
+	}
 
 }
 
