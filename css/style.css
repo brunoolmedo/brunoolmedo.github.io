@@ -302,10 +302,14 @@ a.button {
 }
 
 @media screen and (max-width: 488px) {
-	.name1,
+	.name1 {
+		text-align: center;
+		padding-left: 0%;
+		padding-top: 30%;
+	}
 	.name2 {
 		text-align: center;
-		padding-left: 0em;
+		padding-left: 0%;
 	}
 	h1 {
 		font-size: 4em;
