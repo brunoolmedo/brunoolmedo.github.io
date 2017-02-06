@@ -14,26 +14,21 @@ h1 {
 
 h2 {
 	font-family: 'Open Sans', serif;
-  	font-weight: 400;
+  	font-weight: 325;
 }
 
 h3, h4 {
 	font-family: 'Kreon', sans-serif;
 	line-height: 1.7;
-  	font-weight: 300;
+  	font-weight: 20;
   	font-size: 1.35em;
   	letter-spacing: .1em;
-}
-
-.main > p {
-	text-align: center;
-	padding: 50px 20px;
 }
 
 .title {
 	padding-left: 10%;
 	padding-top: 8%;
-	padding-bottom: 8%;
+	padding-bottom: 2%;
 }
 
 .thin-title {
@@ -50,6 +45,7 @@ h3, h4 {
 .first-section {
 	height: 38em;
 	background-image: url("img/headertop.jpg");
+	background-repeat: none;
 	background-size: 100%
 }
 
@@ -102,7 +98,7 @@ h3, h4 {
 }
 
 .aboutme-btm {
-	padding-bottom: 12%;
+	padding-bottom: 8%;
 }
 
 .white-bg {
