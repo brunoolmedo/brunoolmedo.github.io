@@ -1,0 +1,10 @@
+Searching 9 files for "visit website"
+
+/Users/bruno_olm94/Desktop/github/bruno.github.io/js/grid.js:
+  345  			this.$title = $( '<h3></h3>' );
+  346  			this.$description = $( '<p></p>' );
+  347: 			this.$href = $( '<a href="#">See more</a>' );
+  348  			this.$details = $( '<div class="og-details"></div>' ).append( this.$title, this.$description, this.$href );
+  349  			this.$loading = $( '<div class="og-loading"></div>' );
+
+1 match in 1 file

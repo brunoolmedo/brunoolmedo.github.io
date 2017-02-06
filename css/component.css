@@ -85,9 +85,15 @@
 	background: #333;
 }
 
-.og-fullimg,
+.og-fullimg {
+	width: 70%;
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
 .og-details {
-	width: 50%;
+	width: 30%;
 	float: left;
 	height: 100%;
 	overflow: hidden;
@@ -111,7 +117,7 @@
 .og-details h3 {
 	font-weight: 300;
 	font-size: 52px;
-	padding: 40px 0 10px;
+	padding: 30px 0 10px;
 	margin-bottom: 10px;
 }
 
