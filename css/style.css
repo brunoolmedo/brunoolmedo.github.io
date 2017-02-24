@@ -106,8 +106,43 @@ h3, h4 {
     padding-bottom: 8%;
 }
 
+.disclaimer-text {
+	text-align: left;
+	padding-left: 10%;
+	padding-right: 30%;
+	padding-bottom: 2%;
+}
+
+.disclaimer-text .link {
+	color: #266DD3;
+}
+
+.disclaimer-text .link:visited {
+	color: #266DD3;
+}
+
+.disclaimer-text .link:hover {
+	color: #FFCA3A;
+}
+
+.disclaimer-text .link:active {
+	color: #094074;
+}
+
 .aboutme-btm {
 	padding-bottom: 8%;
+}
+
+a, span.link {
+  color: #094074;
+}
+
+a:visited, span.visited {
+   color: #7B5E7B;
+}
+
+a:active, span.active {
+   color: #FF5E5B;
 }
 
 .white-bg {
